@@ -1,0 +1,195 @@
+article{
+	display: flex;
+	justify-content: center;
+	align-items: flex-start; 
+    padding-top: 15px;
+    box-sizing: border-box;
+}
+
+.main {
+	/*background-color: #fcb595;*/
+	width: 45vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0;
+	right: 25vw;
+}
+.main article {
+	background-color: #e69166;
+}
+.macbook{
+	position: absolute;
+	width: 43%;
+	height:50%;
+	bottom:2%;
+	left:10%;
+}
+.pad{
+	position: absolute;
+	width: 25%;
+	height:45%;
+	bottom:2%;
+	right:15%;
+}
+.mouse{
+	position: absolute;
+	width: 9%;
+	height:28%;
+	bottom:2%;
+	right:23%;
+	z-index:1;
+}
+
+.sub {
+	/*background-color: #fff3d9;*/
+	width: 25vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0;
+	left: 0;
+}
+.sub article {
+	background-color: #f5d890;
+}
+.ipad{
+	position: absolute;
+	width: 63%;
+	height:43%;
+	top:8%;
+	left:2%;
+}
+.airpods{
+	position: absolute;
+	width: 15%;
+	height:12%;
+	bottom:20%;
+	left:20%;
+}
+.headphone{
+	position: absolute;
+	width: 25%;
+	height:25%;
+	bottom:13%;
+	right:10%;
+	border-radius: 100%
+}
+.record {
+	/*background-color: #cee0ea;*/
+	width: 30vw;
+	height: 40vh;
+	position: absolute;
+	top: 3vw;
+	right: 20vw;
+}
+.record article {
+	background-color: #e9f4fb;
+}
+.notebook{
+	position: absolute;
+	width: 45%;
+	height:85%;
+	top:0%;
+	left:3%;
+}
+.pencilcase{
+	position: absolute;
+	width: 15%;
+	height:55%;
+	top:20%;
+	left:18%;
+}
+.calendar{
+	position: absolute;
+	width: 27%;
+	height:55%;
+	top:0%;
+	right:15%;
+}
+
+.etc1 {
+	/*background-color: #d0ddd5;*/
+	width: 45vw;
+	height: 40vh;
+	position: absolute;
+	top: 3vw;
+	left: 0vw;
+}
+.etc1 article {
+	background-color: #dfe9e3;
+}
+.power{
+	position: absolute;
+	width: 40%;
+	height:18%;
+	top:0%;
+	left:1.2%;
+}
+.care{
+	position: absolute;
+	width: 23%;
+	height:47%;
+	bottom:5%;
+	left:20%;
+	border-radius: 100%
+}
+.pouch{
+	position: absolute;
+	width: 25%;
+	height:30%;
+	top:9%;
+	right:10%;
+	z-index:1;
+}
+.tissue{
+	position: absolute;
+	width: 35%;
+	height:40%;
+	top:0%;
+	right:5%;
+}
+
+.etc2{
+	/*background-color: #d0ddd5;*/
+	width: 20vw;
+	height: 40vh;
+	position: absolute;
+	top: 3vw;
+	right: 0;
+}
+.etc2 article {
+	background-color: #dfe9e3;
+}
+.mirror{
+	position: absolute;
+	width: 55%;
+	height:50%;
+	top:0%;
+	right:3%;
+	border-radius: 100%
+}
+.etc3{
+	/*background-color: #d0ddd5;*/
+	width: 10vw;
+	height: 45vh;
+	position: absolute;
+	bottom: 0vw;
+	right: 10vw;
+}
+.etc3 article{
+	background-color: #dfe9e3;
+}
+.water{
+	position: absolute;
+	width: 38%;
+	height:15%;
+	top:5%;
+	left:0%;
+	border-radius: 100%
+}
+.pin{
+	position: absolute;
+	width: 20%;
+	height:20%;
+	top:30%;
+	left:8%;
+}
